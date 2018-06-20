@@ -1,0 +1,24 @@
+{
+  "name": "Modulo1_Forms",
+  "version": "1.0.0",
+  "description": "Modulo Formatos",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoLopezSuarez/Modulo1_Forms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoLopezSuarez/Modulo1_Forms/issues"
+  },
+  "homepage": "https://github.com/DiegoLopezSuarez/Modulo1_Forms#readme"
+}
