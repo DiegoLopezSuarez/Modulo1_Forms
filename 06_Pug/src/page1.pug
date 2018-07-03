@@ -6,3 +6,34 @@ html(lang="idioma")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Pagina extra para ejercicio Pug
     body
+        h1 Pug avanzado.
+
+        -let nombre="Pepe"
+        -if (nombre == 'Pepe'){
+            p Hola, otra vez, Pepe
+        - } else {
+            p Hola #(nombre), ¿Dónde está Pepe?
+        - }
+
+        }
+
+        //- Logica nativa (build-in) Pug
+
+        - nombre = "María"
+        if (nombre === 'Pepe')
+            p Hola otra vez, Pepe
+        else 
+            p Hola #(nombre) ¿Dónde está Pepe?
+
+        //- Iteraciones EACH
+
+        -let aSecciones = {'Inicio', 'Portfolio', 'Clientes',}
+
+        nav
+            ul
+
+            each seccion in aSecciones
+                li: a(hrefs="")
+
+        -let aOpciones = {}
+        -let optName =
