@@ -1,0 +1,29 @@
+{
+  "name": "Modulo1_Forms",
+  "version": "1.0.0",
+  "description": "Modulo Formatos",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parallelshell \"npm run server\" \"npm run pug-w\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug-w": "pug -w -P -O ./06_Pug/config.json ./06_Pug/src -o ./06_Pug/dist",
+    "server":"http-server"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoLopezSuarez/Modulo1_Forms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoLopezSuarez/Modulo1_Forms/issues"
+  },
+  "homepage": "https://github.com/DiegoLopezSuarez/Modulo1_Forms#readme"
+}
